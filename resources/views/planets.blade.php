@@ -10,7 +10,7 @@
             <li>
                 <h2>{{ $planet->name }}</h2>
                 <p>{{ $planet->description }}</p>
-                <p><strong>Solar System:</strong> {{ $planet->solarSystem->name ?? 'Solar System' }}</p>
+                <p><strong>Solar System:</strong> {{ $planet->solarSystem->name ?? 'The Planetary System' }}</p>
             </li>
         @endforeach
     </ul>
